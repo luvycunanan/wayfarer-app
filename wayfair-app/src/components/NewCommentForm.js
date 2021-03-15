@@ -18,7 +18,7 @@ class NewCommentForm extends React.Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    fetch('http://localhost:4000/api/comments', {
+    fetch('https://project-wayfarer-api.herokuapp.com/api/comments', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

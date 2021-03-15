@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 
-const URL = 'http://localhost:4000/api/posts';
+const URL = 'https://project-wayfarer-api.herokuapp.com/api/posts';
 
 class CreatePostPage extends Component {
   state = {

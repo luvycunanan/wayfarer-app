@@ -4,7 +4,7 @@ import CityPage from '../pages/CityPage';
 import NavbarWayfarer from '../components/NavbarWayfarer';
 // import PostsList from '../components/PostsList'
 
-const URL = 'http://localhost:4000/api/cities';
+const URL = 'https://project-wayfarer-api.herokuapp.com/api/cities';
 
 class WayfarerContainer extends Component {
   state = {
@@ -41,7 +41,7 @@ class WayfarerContainer extends Component {
   };
 
   handleDelete = (id) => {
-    fetch(`http://localhost:4000/api/posts/${id}`, {
+    fetch(`https://project-wayfarer-api.herokuapp.com/api/posts/${id}`, {
       method: 'DELETE',
     })
       .then((response) => console.log(response))

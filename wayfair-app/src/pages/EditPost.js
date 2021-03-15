@@ -1,7 +1,7 @@
 import React from 'react';
 import EditPageNavbar from '../components/EditPageNavbar';
 
-const URL = 'http://localhost:4000/api/posts/';
+const URL = 'https://project-wayfarer-api.herokuapp.com/api/posts/';
 
 class EditPost extends React.Component {
   state = {
